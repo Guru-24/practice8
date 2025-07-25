@@ -10,4 +10,10 @@ while (n != 0) {
         reversed = reversed * 10 + remainder;
         n /= 10;
     }
+if (original == reversed)
+        printf("%d is a palindrome.", original);
+    else
+        printf("%d is not a palindrome.", original);
 
+    return 0;
+}
