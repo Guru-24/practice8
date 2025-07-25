@@ -15,4 +15,10 @@ int main()
 
     return 0;
 }
+long long convert(long long n) {
+
+    long long dec = 0;
+    int i = 0, rem;
+
+    while (n != 0) {:wq
 
