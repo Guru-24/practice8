@@ -20,6 +20,14 @@ long long convert(long long n) {
     long long dec = 0;
     int i = 0, rem;
 
-    while (n != 0) {:wq
-rem = n % 10;
-dec += rem << i; // Using bitwise shift instead of pow
+    while (n != 0) {
+rem = n % 10 n /= 10;
+dec += rem << i;
+ n /= 10;
+
+        
+        ++i;
+    }
+
+    return dec;
+}
