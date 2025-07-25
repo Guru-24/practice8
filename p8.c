@@ -7,3 +7,8 @@ int main(){
     while (originalNum != 0) {
       
         remainder = originalNum % 10;
+	result += remainder * remainder * remainder;
+
+     
+       originalNum /= 10;
+    }
