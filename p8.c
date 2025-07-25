@@ -1,6 +1,9 @@
 #include <stdio.h>
-int main()
+int main(){
 	int num, originalNum, remainder, result = 0;
     printf("Enter a three-digit integer: ");
     scanf("%d", &num);
     originalNum = num;
+    while (originalNum != 0) {
+      
+        remainder = originalNum % 10;
